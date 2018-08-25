@@ -12,8 +12,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:adapter="@{viewModel.adapter}"
+        android:orientation="vertical"
+        app:diff="@{viewModel.diff}"
         app:itemBinding="@{viewModel.itemBinding}"
-        app:items="@{viewModel.items}"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        app:items="@{viewModel.items}" />
 </layout>
