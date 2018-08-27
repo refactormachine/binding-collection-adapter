@@ -1,3 +1,7 @@
+### Unreleased
+- Removed `LayoutManagers`. RecyclerView has support setting the LayoutManager in xml using it's
+class name that doesn't rely on databinding.
+
 ### 3.0.0-beta2
 - LiveData support. This currently has a limitation that you need to call `setLifecycleOwner` on the
 adapter if the host view is not using databinding.
